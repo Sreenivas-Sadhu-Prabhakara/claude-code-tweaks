@@ -3,6 +3,12 @@
 Small, self-contained customizations for [Claude Code](https://claude.com/claude-code). Each one
 lives in its own folder with its own install note. No dependencies beyond Python 3 and bash.
 
+- **[`skills/`](skills/)** — nine skills for the domains I work in: website, frontend UI,
+  microservices, Java, Go, Python, databases, middleware, Apigee. Standards and gotchas written where
+  Claude loads them automatically.
+- **[`statusline/`](#statusline--see-your-rate-limits-without-asking)** — a status line showing your
+  5-hour, weekly and context usage as meters, plus a Monday pacing hook.
+
 ## statusline — see your rate limits without asking
 
 Claude Code exposes your usage limits to the status line as JSON. This renders them as meters, so
